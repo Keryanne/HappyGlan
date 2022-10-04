@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Happy Glan\'</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Karine Le Marchand</string>
+    <string name="nav_header_subtitle">karine.le-marchand@epsi.fr</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_map">Carte</string>
+    <string name="menu_calendar">Calendrier</string>
+    <string name="menu_informations">Informations</string>
+    <string name="menu_tips">Faire un don</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_parameters">Paramètres</string>
+</resources>
