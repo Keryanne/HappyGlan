@@ -13,4 +13,7 @@
     <string name="menu_tips">Faire un don</string>
     <string name="menu_profile">Profil</string>
     <string name="menu_parameters">Paramètres</string>
+    <string name="profile_first_number_description">Glanages</string>
+    <string name="profile_second_number_description">Poids moyen</string>
+    <string name="profile_third_number_description">Contribution</string>
 </resources>

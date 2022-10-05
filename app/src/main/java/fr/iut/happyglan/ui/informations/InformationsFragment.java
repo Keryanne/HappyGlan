@@ -1,4 +1,4 @@
-package fr.iut.happyglan.ui.home;
+package fr.iut.happyglan.ui.informations;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import fr.iut.happyglan.databinding.FragmentHomeBinding;
+import fr.iut.happyglan.databinding.FragmentInformationsBinding;
 
-public class HomeFragment extends Fragment {
+public class InformationsFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
+    private FragmentInformationsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        InformationsViewModel informationsViewModel =
+                new ViewModelProvider(this).get(InformationsViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentInformationsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textSlideshow;
+        informationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

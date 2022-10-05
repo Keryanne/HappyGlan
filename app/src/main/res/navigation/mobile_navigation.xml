@@ -7,34 +7,34 @@
 
     <fragment
         android:id="@+id/nav_tips"
-        android:name="fr.iut.happyglan.ui.slideshow.SlideshowFragment"
+        android:name="fr.iut.happyglan.ui.informations.InformationsFragment"
         android:label="@string/menu_tips"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_informations" />
     <fragment
         android:id="@+id/nav_map"
-        android:name="fr.iut.happyglan.ui.home.HomeFragment"
+        android:name="fr.iut.happyglan.ui.map.MapFragment"
         android:label="@string/menu_map"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_map" />
 
     <fragment
         android:id="@+id/nav_calendar"
-        android:name="fr.iut.happyglan.ui.gallery.GalleryFragment"
+        android:name="fr.iut.happyglan.ui.calendar.CalendarFragment"
         android:label="@string/menu_calendar"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_calendar" />
 
     <fragment
         android:id="@+id/nav_informations"
-        android:name="fr.iut.happyglan.ui.slideshow.SlideshowFragment"
+        android:name="fr.iut.happyglan.ui.informations.InformationsFragment"
         android:label="@string/menu_informations"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_informations" />
     <fragment
         android:id="@+id/nav_profile"
-        android:name="fr.iut.happyglan.ui.slideshow.SlideshowFragment"
+        android:name="fr.iut.happyglan.ui.profile.ProfileFragment"
         android:label="@string/menu_profile"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_informations" />
     <fragment
         android:id="@+id/nav_parameters"
-        android:name="fr.iut.happyglan.ui.slideshow.SlideshowFragment"
+        android:name="fr.iut.happyglan.ui.informations.InformationsFragment"
         android:label="@string/menu_parameters"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_informations" />
 </navigation>

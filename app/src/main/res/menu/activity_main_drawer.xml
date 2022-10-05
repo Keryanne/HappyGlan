@@ -7,27 +7,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_map"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/map"
             android:title="@string/menu_map" />
         <item
             android:id="@+id/nav_calendar"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/calendar"
             android:title="@string/menu_calendar" />
         <item
             android:id="@+id/nav_informations"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/information"
             android:title="@string/menu_informations" />
         <item
             android:id="@+id/nav_tips"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/donation"
             android:title="@string/menu_tips" />
         <item
             android:id="@+id/nav_profile"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/user"
             android:title="@string/menu_profile" />
         <item
             android:id="@+id/nav_parameters"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/settings"
             android:title="@string/menu_parameters" />
     </group>
 </menu>
